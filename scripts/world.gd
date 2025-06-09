@@ -23,7 +23,6 @@ func _ready():
 	timer.timeout.connect(_on_timer_timeout)
 
 func _on_timer_timeout():
-	# Advance time_of_day
 	time_of_day += timer.wait_time / cycle_duration
 	if time_of_day > 1.0:
 		time_of_day = 0.0
