@@ -1,24 +1,3 @@
-#extends Panel
-#
-#@onready var item_visual: Sprite2D = $CenterContainer/Panel/item_display
-#@onready var amount_text: Label = $CenterContainer/Panel/Label
-#
-#func update(slot: InvSlot):
-	#if !slot.item:
-		#item_visual.visible = false
-		#amount_text.visible = false
-	#
-	#else:
-		#item_visual.visible = true
-		#item_visual.texture = slot.item.texture
-		#item_visual.scale = Vector2(5, 5)
-		#
-		#if slot.amount > 1:
-			#amount_text.visible = true
-		#
-		#amount_text.text = str(slot.amount)
-		#
-		
 extends Panel
 
 @onready var item_visual: Sprite2D = $CenterContainer/Panel/item_display
@@ -42,34 +21,7 @@ func update(slot: InvSlot):
 
 func highlight(is_selected: bool):
 	if is_selected:
-		modulate = Color(1.5, 1.5, 1.5)  # Brighter when selected
-		# Or you could add a border/outline effect
+		modulate = Color(1.5, 1.5, 1.5)  
+
 	else:
-		modulate = Color(0.8, 0.8, 0.8)  # Normal color
-		
-#extends Panel
-#
-#@onready var item_visual: Sprite2D = $CenterContainer/Panel/item_display
-#@onready var amount_text: Label = $CenterContainer/Panel/Label
-#
-#func update(slot: InvSlot):
-	#if !slot.item:
-		#item_visual.visible = false
-		#amount_text.visible = false
-	#else:
-		#item_visual.visible = true
-		#item_visual.texture = slot.item.texture
-		#item_visual.scale = Vector2(5, 5)
-		#
-		#if slot.amount > 1:
-			#amount_text.visible = true
-			#amount_text.text = str(slot.amount)
-		#else:
-			#amount_text.visible = false
-#
-#func highlight(is_selected: bool):
-	#if is_selected:
-		#modulate = Color(1.2, 1.2, 1.2)  # Brighter when selected
-		## Or you could add a border/outline effect
-	#else:
-		#modulate = Color(1.0, 1.0, 1.0)  # Normal color
+		modulate = Color(0.8, 0.8, 0.8) 
