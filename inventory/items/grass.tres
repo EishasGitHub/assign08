@@ -11,4 +11,5 @@ region = Rect2(48, 0, 16, 16)
 script = ExtResource("1_bk5we")
 name = "grass"
 texture = SubResource("AtlasTexture_7crbm")
+index = 3
 metadata/_custom_type_script = "uid://cff73dc4nhnbf"

@@ -11,4 +11,5 @@ region = Rect2(16, 16, 16, 16)
 script = ExtResource("1_78wyq")
 name = "ice"
 texture = SubResource("AtlasTexture_eba75")
+index = -1
 metadata/_custom_type_script = "uid://cff73dc4nhnbf"

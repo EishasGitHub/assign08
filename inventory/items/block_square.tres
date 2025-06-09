@@ -11,4 +11,5 @@ region = Rect2(32, 16, 16, 16)
 script = ExtResource("1_44oai")
 name = "block_square"
 texture = SubResource("AtlasTexture_obgy3")
+index = -1
 metadata/_custom_type_script = "uid://cff73dc4nhnbf"

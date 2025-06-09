@@ -11,4 +11,5 @@ region = Rect2(64, 0, 16, 16)
 script = ExtResource("1_b0g7d")
 name = "snow"
 texture = SubResource("AtlasTexture_jyk7o")
+index = 5
 metadata/_custom_type_script = "uid://cff73dc4nhnbf"

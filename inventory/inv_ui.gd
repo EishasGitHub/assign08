@@ -12,7 +12,6 @@ func _ready() -> void:
 func update_slots():
 	for i in range(min(inv.slots.size(), slots.size())):
 		slots[i].update(inv.slots[i])
-		# Highlight selected slot
 		if i == selected_slot_index:
 			slots[i].highlight(true)
 		else:

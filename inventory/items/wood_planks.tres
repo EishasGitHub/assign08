@@ -5,10 +5,11 @@
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r7fw0"]
 atlas = ExtResource("2_6n073")
-region = Rect2(16, 64, 16, 16)
+region = Rect2(16, 32, 16, 16)
 
 [resource]
 script = ExtResource("1_oiosn")
 name = "wood_planks"
 texture = SubResource("AtlasTexture_r7fw0")
+index = 8
 metadata/_custom_type_script = "uid://cff73dc4nhnbf"

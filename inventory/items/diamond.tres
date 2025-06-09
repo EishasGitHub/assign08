@@ -11,4 +11,5 @@ region = Rect2(16, 0, 16, 16)
 script = ExtResource("1_b5fm8")
 name = "diamond"
 texture = SubResource("AtlasTexture_uafoy")
+index = 1
 metadata/_custom_type_script = "uid://cff73dc4nhnbf"

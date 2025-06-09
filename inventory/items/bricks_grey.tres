@@ -11,4 +11,5 @@ region = Rect2(64, 16, 16, 16)
 script = ExtResource("1_34j1f")
 name = "bricks_grey"
 texture = SubResource("AtlasTexture_qmdtt")
+index = 0
 metadata/_custom_type_script = "uid://cff73dc4nhnbf"

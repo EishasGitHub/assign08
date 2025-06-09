@@ -14,9 +14,14 @@ var held_item: InvItem = null
 
 signal slot_changed(index: int)  
 
+
 func _read():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	update_held_item()  
+	
+	if has_node("CraftingSystem"):
+		var crafting_system = get_node("CraftingSystem")
+		crafting_system.player_inventory = inv
 
 func _unhandled_input(event):
 	if event is InputEventMouseMotion:
@@ -29,6 +34,7 @@ func _unhandled_input(event):
 			selected_slot_index = event.keycode - KEY_1  
 			update_held_item()
 			slot_changed.emit(selected_slot_index)
+			
 		elif event.keycode == KEY_0:
 			selected_slot_index = 9
 			update_held_item()
