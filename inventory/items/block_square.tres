@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=4 format=3 uid="uid://cpgdas116clg3"]
+
+[ext_resource type="Script" uid="uid://cff73dc4nhnbf" path="res://inventory/inventory_item.gd" id="1_44oai"]
+[ext_resource type="Texture2D" uid="uid://bqgjsvc15xdiu" path="res://assets/models/Block_Square_Blocks_PixelArt.png" id="2_imqql"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_obgy3"]
+atlas = ExtResource("2_imqql")
+region = Rect2(32, 16, 16, 16)
+
+[resource]
+script = ExtResource("1_44oai")
+name = "block_square"
+texture = SubResource("AtlasTexture_obgy3")
+metadata/_custom_type_script = "uid://cff73dc4nhnbf"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=4 format=3 uid="uid://d341djt1gd37k"]
+
+[ext_resource type="Script" uid="uid://cff73dc4nhnbf" path="res://inventory/inventory_item.gd" id="1_b1npq"]
+[ext_resource type="Texture2D" uid="uid://ca57ch81qeyqd" path="res://assets/models/Leaves_Blocks_PixelArt.png" id="2_0acvw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8cb4s"]
+atlas = ExtResource("2_0acvw")
+region = Rect2(16, 48, 16, 16)
+
+[resource]
+script = ExtResource("1_b1npq")
+name = "leaves"
+texture = SubResource("AtlasTexture_8cb4s")
+metadata/_custom_type_script = "uid://cff73dc4nhnbf"

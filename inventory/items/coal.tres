@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=4 format=3 uid="uid://csr4ppw3r4bja"]
+
+[ext_resource type="Script" uid="uid://cff73dc4nhnbf" path="res://inventory/inventory_item.gd" id="1_0xgtw"]
+[ext_resource type="Texture2D" uid="uid://hdawqkfmxnun" path="res://assets/models/Coal_Blocks_PixelArt.png" id="2_1a8fp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d8on5"]
+atlas = ExtResource("2_1a8fp")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_0xgtw")
+name = "coal"
+texture = SubResource("AtlasTexture_d8on5")
+metadata/_custom_type_script = "uid://cff73dc4nhnbf"

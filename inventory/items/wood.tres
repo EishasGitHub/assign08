@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=4 format=3 uid="uid://s1516rnynkn8"]
+
+[ext_resource type="Script" uid="uid://cff73dc4nhnbf" path="res://inventory/inventory_item.gd" id="1_kx46v"]
+[ext_resource type="Texture2D" uid="uid://dqrir0w1hs0y" path="res://assets/models/WoodPlanks_Blocks_PixelArt.png" id="2_clb6w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mq32g"]
+atlas = ExtResource("2_clb6w")
+region = Rect2(16, 64, 16, 16)
+
+[resource]
+script = ExtResource("1_kx46v")
+name = "wood"
+texture = SubResource("AtlasTexture_mq32g")
+metadata/_custom_type_script = "uid://cff73dc4nhnbf"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=4 format=3 uid="uid://beinxwdht0g27"]
+
+[ext_resource type="Script" uid="uid://cff73dc4nhnbf" path="res://inventory/inventory_item.gd" id="1_b5fm8"]
+[ext_resource type="Texture2D" uid="uid://dl2go7dyy2rdl" path="res://assets/models/Diamond_Blocks_PixelArt.png" id="2_kh70i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uafoy"]
+atlas = ExtResource("2_kh70i")
+region = Rect2(16, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_b5fm8")
+name = "diamond"
+texture = SubResource("AtlasTexture_uafoy")
+metadata/_custom_type_script = "uid://cff73dc4nhnbf"

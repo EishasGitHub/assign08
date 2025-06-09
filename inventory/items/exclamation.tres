@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=4 format=3 uid="uid://btj151d3qyhud"]
+
+[ext_resource type="Script" uid="uid://cff73dc4nhnbf" path="res://inventory/inventory_item.gd" id="1_72lhu"]
+[ext_resource type="Texture2D" uid="uid://u67plbmn5ack" path="res://assets/models/Exclamation_Blocks_PixelArt.png" id="2_0jtcf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xr5yh"]
+atlas = ExtResource("2_0jtcf")
+region = Rect2(32, 48, 16, 16)
+
+[resource]
+script = ExtResource("1_72lhu")
+name = "exclamation"
+texture = SubResource("AtlasTexture_xr5yh")
+metadata/_custom_type_script = "uid://cff73dc4nhnbf"
